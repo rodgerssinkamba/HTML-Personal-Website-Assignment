@@ -9,9 +9,9 @@ Assignment: HTML Personal Website Development Assignment
 Repository: GitHub repository URL
 
 
-Question 1: Website Creation
+QUESTION 1: Website Creation
 
-What type of website did you create and what content does it contain?
+What type of website I created and what content does it contain?
 
 I created a personal portfolio website using HTML. The website introduces me, describes my education and interests, lists my skills, presents some projects and has a contact section.
 
@@ -27,6 +27,7 @@ A Contact section with contact information and a form.
 A footer containing copyright information and navigation links.
 
 The website uses more than 25 different HTML elements and more than 15 different HTML attributes. It also uses semantic HTML elements to make the structure clear.
+
 
 HTML Elements used in the website:
 
@@ -61,8 +62,7 @@ HTML Elements used in the website:
 29. <textarea>
 30. <button>
 31. <br>
-32. <footer>
-
+32. <footer>'''
 
 HTML attributes used in the website:
 
@@ -91,20 +91,20 @@ HTML attributes used in the website:
 23. rel
 
 
-
-Question 2: HTML Elements
+QUESTION 2: HTML Elements
 
 5 elements I found most challenging to implement and why?
 
-1. <form> : was challenging because it required several related elements, including <label>, <input>, <textarea> and <button>. I had to make sure that each label was connected to the correct input using the `for` and `id` attributes.
+1. <form> : was challenging because it required several related elements, including <label>, <input>, <textarea> and <button>. I had to make sure that each label was connected to the correct input.
 
 2. <figure>: element required me to understand how an image can be grouped with its description. I used <figure> together with <img> and <figcaption> to give the image context.
 
 3. <nav>: The navigation section required links to be connected to specific pages. I used the <href> attribute to link to the pages.
 
-4. <article>: was challenging because I had to decide which pieces of content could logically stand on their own. I used it for independent content such as on my profile information and individual projects.
+4. <article>: was challenging because I had to decide which pieces of content could logically stand on their own. I used it for independent content such as on my profile information and projects.
 
 5. <address>: This element required me to distinguish contact information from ordinary paragraph text. I used it specifically for contact details such as an email address and location.
+
 
 How I used semantic elements to structure my content?
 
@@ -122,21 +122,21 @@ semantic HTML elements  were used to give meaning to different parts of the page
 
 Element most useful for organizing the layout and why?
 
-<section> element was the most useful for organizing the layout because it allowed me to divide the website into clear, meaningful parts. Each section has an `id`, which also makes it possible for the navigation menu to link directly to that section.
+<section> element was the most useful for organizing the layout because it allowed me to divide the website into clear, meaningful parts. Each section has an <id>, which also makes it possible for the navigation menu to link directly to that section.
 
 
-Question 3: HTML Attributes
+QUESTION 3: HTML Attributes
 
 3 attributes essential for making the website functional
 
 <href>: attribute is essential because it tells links where to go. I used it for navigation between pages.
 
-<id>: attribute is essential because it uniquely identifies sections of the page. The navigation links use these IDs to move the user directly to the selected section.
+<id>: attribute is essential because it uniquely identifies sections of the page. The navigation links use these IDs to move the user directly to the selected section and page.
 
 <src>: attribute is essential for displaying the image because it specifies the location of the image resource.
 
 
-How did I used the <class> and <id> attributes differently.
+How I used the <class> and <id> attributes differently.
 
 I mainly used <id> because each major section needed a unique identifier for internal navigation.
 An <id> identifies one specific element on a page, while a <class> can be shared by multiple elements when they belong to the same category or need the same styling or scripting behavior.
@@ -144,14 +144,14 @@ An <id> identifies one specific element on a page, while a <class> can be shared
 Although no class was necessary for this HTML-only version, I would use classes in a larger website where several elements share the same presentation or behavior.
 
 
-Attribute that helped improve user experience the most and why.
+Attributes that helped improve user experience the most and why.
 
 The <title> attribute helped improve user experience because it provides additional information when the user points to certain links or images. I used it on the profile image, GitHub link and Back to Top link.
 
 The <alt> attribute also significantly improves accessibility because it provides alternative text describing the image when the image cannot be displayed and helps users who rely on screen readers.
 
 
-Question 4: Development Process
+QUESTION 4: Development Process
 
 How I planned my website structure before coding.
 
@@ -164,6 +164,7 @@ After that, I planned the document hierarchy:
 I also planned the navigation links before coding the individual pages so that each page could be reached easily.
 
 Finally, I listed the HTML elements and attributes that would help me meet the assignment requirements.
+
 
 Approach to testing and debugging my HTML.
 
@@ -180,54 +181,40 @@ The HTML structure was properly nested.
 
 I also checked the code for missing closing tags, incorrectly nested elements, missing quotation marks and incorrect attribute values.
 
-What challenges I faced and how I you overcome them.
+
+Challenges I faced and how I you overcome them.
 
 One challenge was ensuring that I used enough different HTML elements and attributes without adding unnecessary content. I overcame this by planning the required elements before coding and using them where they had actual purpose.
 
 
-Question 5: Git & GitHub Implementation
+QUESTION 5: Git & GitHub Implementation
 
 Git commands used during development.
+For this project, I created the repository directly on the website to keep the project history organized. I uploaded the html pages and files directly via website as well.
 
-```bash
-git init
-git status
-git add .
-git commit -m "Initial HTML website structure"
-git add .
-git commit -m "Add personal website content"
-git add .
-git commit -m "Add navigation and contact form"
-git add .
-git commit -m "Review and improve HTML structure"
-git remote add origin YOUR_REPOSITORY_URL
-git branch -M main
-git push -u origin main
-git log --oneline
-```
 
 Commits made and commit message strategy.
 
-four-commit strategy:
+9-commit strategy:
 
-1. Initial HTML website structure`
-2. Add personal website content`
-3. Add navigation and contact form`
-4. Review and improve HTML structure`
+1. Initial HTML website files uplaod
+2. Commits 2-7: fixing footer links across pages.
+3. Updating README.md file for consistency.
 
 
 Why version control is important for web development projects
 
-Version control is important because it keeps a history of changes made to a project. It allows developers to:
+Version control is important because it keeps a history of changes made to a project. the changes are chronological and allows developers to:
 
 Track changes over time.
-Return to an earlier version.
+Revert to an previous version.
 Identify when problems were introduced.
-Work collaboratively with other developers.
+Collaboratively with other developers without overwriting each others work.
 Store projects remotely using platforms such as GitHub.
 Demonstrate development progress.
 
-Question 6: Code Quality & Best Practices
+
+QUESTION 6: Code Quality & Best Practices
 
 How I ensured HTML was valid and error-free.
 
@@ -235,21 +222,22 @@ I checked that every element was properly opened and closed where required. I al
 
 I tested the page in a web browser and reviewed the HTML source code for mistakes.
 
+
 Best practices I followed for writing clean, readable code.
 
 indentation to show the HTML hierarchy.
 lowercase HTML elements and attributes consistently.
 semantic elements.
 meaningful headings.
-descriptive `alt` text for images.
+descriptive <alt> text for images.
 Grouped related content together.
 Used comments only where they add useful explanation.
 Kept the document structure organized.
 Used meaningful and descriptive link text.
 Avoided unnecessary HTML elements.
 
-How I would improve my website if I had more time.
 
+How I would improve my website if I had more time.
 
 Add an external CSS stylesheet for a professional look.
 Making the layout fully responsive for phones, tablets and computers.
